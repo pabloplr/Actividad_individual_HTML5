@@ -1,0 +1,19 @@
+.knight{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}
+.speech-bubble{
+    position: absolute;
+    left: 1000px;
+    top: 110px;
+}
+.comunicado{
+    position: absolute;
+    left: 1000px;
+    top: 220px;
+    width: 475px;
+    padding: 0px 19px;
+    font-size: 36px;
+    text-align: center;
+}

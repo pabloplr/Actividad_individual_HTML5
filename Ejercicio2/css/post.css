@@ -1,0 +1,82 @@
+.header2{
+    background-image: url(../img/hero_banner.jpg);
+    margin-top: 29px;
+    width: 100%;
+    height: 320px;
+}
+.header2 img{
+    position: absolute;
+    top: 400px;
+    height: 100px;
+    width: 100%;
+}
+.header2 h2{
+    text-align: center;
+    padding-top: 100px;
+    color: #ece2bf;
+    font-family: 'Mate SC', serif;
+    font-size: 40px;
+}
+.container{
+    display: flex !important;
+    justify-content: space-around;
+    width: 100%;
+}
+article{
+    width: 40%;
+    /* margin: auto; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/frame.bmp) 30% repeat;
+}
+article img{
+    width: 100%;
+    margin: 15px 0px;
+}
+article p{
+    margin: 15px 0px;
+    text-align: justify;
+}
+aside{
+    /* position: absolute; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 20%;
+}
+aside .post{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/frame.bmp) 30% repeat;
+    margin-bottom: 50px;
+}
+.post img{
+    width: 100%;
+}
+aside .coments{
+    border: 10px solid transparent;
+    border-image: url(../img/frame.bmp) 30% repeat;
+    margin-bottom: 50px;
+}
+.coments h2{
+    margin: 15px;
+
+}
+.coments details{
+    width: 100%;
+    border-top: solid 1px #938968;
+}
+.coments details summary{
+    display: flex;
+    justify-content: space-between;
+}
+.coments details summary:hover{
+    cursor: pointer;
+}
+.coments details *{
+    margin: 10px;
+}
+iframe{
+    margin-left: 200px;
+}

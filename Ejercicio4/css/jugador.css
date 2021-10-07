@@ -1,0 +1,33 @@
+article{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1{
+    color: red;
+    font-weight:900;
+}
+.dorsal{
+    border-bottom: solid 1px red;
+    width: 25px;
+}
+h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+article div h3{
+    color: grey;
+    font-size: 11px;
+}
+article div h2{
+    font-weight: 800;
+}
+article img{
+    width: 400px;
+    border: solid 1.5px black;
+}

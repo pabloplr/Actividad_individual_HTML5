@@ -1,0 +1,93 @@
+a{
+    text-decoration: none;
+}
+.position{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.jugador{
+    width: 210px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.foto{
+    border: solid 1.5px black;
+}
+.foto img{
+    width: 100%;
+}
+.jugador table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.jugador td{
+    border: solid 1.5px black;
+}
+.datos{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+}
+.datos div {
+    border-top: solid black 1.5px;
+    border-bottom: solid black 1.5px;
+    border-top: solid black 1.5px;
+    border-collapse: collapse;
+}
+.dorsal{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+    border-right: solid black 1.5px;
+    border-left: solid black 1.5px;
+}
+.nombre{
+    width: 80%;
+    font-size: 13px;
+    border-right: solid black 1.5px;
+    padding-left: 10px;
+    color: black;
+}
+article{
+    width: 70%;
+}
+hr{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.jugador:hover{
+    cursor: pointer;
+}
+.jugador:hover  img {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    transition: 1s;
+}
+.jugador:hover .datos .dorsal, .jugador:hover .datos .nombre{
+    background-color: red;
+    color: white;
+    border-top: solid red 1.5px;
+    border-bottom: solid red 1.5px;
+    border-top: solid red 1.5px;
+    transition: .6s;
+}
+.jugador:hover .datos .dorsal{
+    border-right: solid red 1.5px;
+    border-left: solid red 1.5px;
+    transition: .6s;
+}
+.jugador:hover .datos .nombre{
+    border-right: solid red 1.5px;
+    transition: .6s;
+}
+.foto{
+    overflow:hidden;
+}
