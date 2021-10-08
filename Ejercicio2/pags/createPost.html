@@ -29,7 +29,7 @@
                         <label for="">nombre</label>
                     </td>
                     <td>
-                        <input type="text">
+                        <input required type="text">
                     </td>
                 </tr>
                 <tr>
@@ -37,7 +37,7 @@
                         <label for="">correo electronico</label>
                     </td>
                     <td>
-                        <input type="text">
+                        <input required type="email">
                     </td>
                 </tr>
                 <tr>
@@ -45,7 +45,7 @@
                         <label for="">mensaje</label>
                     </td>
                     <td>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea required minlength="3" name="" id="" cols="30" rows="10"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -61,7 +61,7 @@
                         <label for="">fecha de nacimiento</label>
                     </td>
                     <td>
-                        <input type="date" name="" id="">
+                        <input required type="date" name="" id="">
                     </td>
                 </tr>
                 <tr>
@@ -73,7 +73,7 @@
                         <label for="">teléfono</label>
                     </td>
                     <td>
-                        <input type="text">
+                        <input required minlength="9" maxlength="9" pattern="[0-9]{9}">
                     </td>
                 </tr>
                 <tr>
@@ -82,14 +82,14 @@
                     </td>
                     <td>
                         <label for="">Si</label>
-                        <input type="radio" name="" id="">
+                        <input checked type="radio" name="notifications" id="">
                         <label for="">No</label>
-                        <input type="radio" name="" id="">
+                        <input type="radio" name="notifications" id="">
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input style="margin: auto;" type="button" onclick="alert('esto está para un 10!!')" value="enviar">
+                        <input style="margin: auto;" type="submit"  value="enviar">
                     </td>
                     <td></td>
                 </tr>
