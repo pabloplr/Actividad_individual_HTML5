@@ -1,0 +1,62 @@
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+article{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+h1, h2{
+    text-align: center;
+}
+.trabajo{
+    display: flex;
+    flex-direction: column;
+    /* -ms-flex-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 180px; */
+    width: 400px;
+    /* display: flex; */
+    margin: 30px;
+    /* border: solid 2px black; */
+    border-radius: 15px;
+}
+.trabajo{
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(212, 196, 196, 0.2) 0px -3px 0px inset;
+}
+.trabajo:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.trabajo:active{
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.trabajo img{
+    border-radius: 15px 15px 0px 0px;
+}
+h3{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.home_btn{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 30px 90px;
+    z-index: 2;
+}

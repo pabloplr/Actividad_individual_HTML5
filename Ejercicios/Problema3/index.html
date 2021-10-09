@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novedades HTML5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Novedades HTML 5</h1>
+    <div class="componente">
+        <h2>Barra de progreso</h2>
+        <p class="code">&lt;progress id="file" id="barra" value="10" max="100"&gt;10%&lt;/progress&gt;</p>
+        <p>Muestra una barra de progreso con el porcentaje que le indiquemos en su atributo value.</p>
+        <label for="file">Downloading progress 10%:</label>
+        <progress id="file" id="barra" value="10" max="100">10%</progress><br>
+        <label for="file">Downloading progress 35%:</label>
+        <progress id="file" id="barra" value="35" max="100">35%</progress><br>
+        <label for="file">Downloading progress 72%:</label>
+        <progress id="file" id="barra" value="72" max="100">72%</progress><br>
+    </div>
+    <div class="componente">
+        <h2>Etiqueta Mark</h2>
+        <p class="code">&lt;mark&gt;hola&lt;mark&gt;</p>
+        <p>Etiqueta para resaltar texto</p>
+        <p>Me <mark>encanta</mark> esta activida, es por eso que <mark>amo</mark> la asignatura de <mark>Lenguaje de
+                marcas</mark>.</p>
+    </div>
+    <div class="componente">
+        <h2>Etiqueta meter</h2>
+        <p class="code">&lt;meter value="0.4"&gt;40%&lt;/meter&gt;</p>
+        <p>Para agregar un indicador gráfico de alguna medida. Consta de hasta 6 atributos: <br>
+            <br> value: para el valor que queremos representar.
+            <br> min: para el mínimo posible dentro la escala a representar.
+            <br> low: mínimo alcanzado.
+            <br> max: valor máximo posible.
+            <br> hight: máximo alcanzado.
+            <br> optimum: valor mínimo ideal.
+        </p>
+        <label for="">2 de 10</label><meter value="2" min="0" max="10">2 de 10</meter>
+        <br>
+        <label for="">40%</label><meter value="0.4">40%</meter>
+    </div>
+    <div class="componente">
+        <h2>Tipo search para la etiqueta input</h2>
+        <p class="code">&lt;input type="search"&gt;</p>
+        <p>Se usa para indicar una busqueda.</p>
+        <input type="search" name="" id="">
+    </div>
+    <div class="componente">
+        <h2>Tipo search para la etiqueta input</h2>
+        <p class="code">&lt;input type="range"&gt;</p>
+        <p>Se usa para indicar un rango entre dos números.</p>
+        <input type="range" name="" id="">
+    </div>
+    <div class="componente">
+        <h2>Etiqueta Canvas</h2>
+        <p class="code">&lt;canvas id="myCanvas" width="200" height="100"&gt;&lt;/canvas&gt;</p>
+        <p>Es un elemento HTML se utiliza para dibujar gráficos, sobre la marcha, a través de JavaScript.</p>
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        </canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+        </script>
+    </div>
+    <a class="home_btn" href="../../index.html"> <- trabajos</a>
+</body>
+
+</html>
