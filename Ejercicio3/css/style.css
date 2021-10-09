@@ -7,6 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 header{
+    z-index: 1;
     background-color: var(--main-red);
     position: fixed;
     width: 100%;
